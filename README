@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution Plack-Middleware-RemoveRedundantBody,
-version 0.02:
+version 0.03:
 
   Plack::Middleware which sets removes body for HTTP response if it's not required
 

@@ -4,7 +4,7 @@ use warnings;
 use parent qw( Plack::Middleware );
 use Plack::Util;
 
-our $VERSION = "0.03";
+our $VERSION = "0.04";
 
 # ABSTRACT: Plack::Middleware which sets removes body for HTTP response if it's not required
 
@@ -21,7 +21,7 @@ sub call {
             $response->[2] = [];
             $headers->remove("Content-Length");
 	}
-	return;
+        return;
     });
 }
 
@@ -39,7 +39,7 @@ Plack::Middleware::RemoveRedundantBody - Plack::Middleware which sets removes bo
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =head1 SYNOPSIS
 
@@ -58,10 +58,6 @@ version 0.03
 =head1 DESCRIPTION
 
 This module removes body in HTTP response, if it's not required.
-
-=head1 NAME
-
-Plack::Middleware::RemoveRedundantBody - removes body for HTTP response if it's not required
 
 =head1 CONTRIBUTORS
 

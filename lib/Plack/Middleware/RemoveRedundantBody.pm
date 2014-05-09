@@ -39,7 +39,7 @@ Plack::Middleware::RemoveRedundantBody - Plack::Middleware which sets removes bo
 
 =head1 VERSION
 
-version 0.04
+version 0.05
 
 =head1 SYNOPSIS
 
@@ -62,6 +62,8 @@ This module removes body in HTTP response, if it's not required.
 =head1 CONTRIBUTORS
 
 John Napiorkowski <jjn1056@yahoo.com>
+
+Karen Etheridge <ether@cpan.org>
 
 =head1 AUTHOR
 

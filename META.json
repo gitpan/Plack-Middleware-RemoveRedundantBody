@@ -37,7 +37,6 @@
       },
       "test" : {
          "requires" : {
-            "Carp::Always" : "0",
             "HTTP::Request::Common" : "0",
             "Plack::Builder" : "0",
             "Plack::Test" : "0",
@@ -46,6 +45,17 @@
       }
    },
    "release_status" : "stable",
-   "version" : "0.04"
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/Sweet-kid/Plack-Middleware-RemoveRedundantBody/issues"
+      },
+      "homepage" : "https://github.com/Sweet-kid/Plack-Middleware-RemoveRedundantBody",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/Sweet-kid/Plack-Middleware-RemoveRedundantBody.git",
+         "web" : "https://github.com/Sweet-kid/Plack-Middleware-RemoveRedundantBody"
+      }
+   },
+   "version" : "0.05"
 }
 

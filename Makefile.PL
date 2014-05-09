@@ -28,13 +28,12 @@ my %WriteMakefileArgs = (
     "warnings" => 0
   },
   "TEST_REQUIRES" => {
-    "Carp::Always" => 0,
     "HTTP::Request::Common" => 0,
     "Plack::Builder" => 0,
     "Plack::Test" => 0,
     "Test::More" => 0
   },
-  "VERSION" => "0.04",
+  "VERSION" => "0.05",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -42,7 +41,6 @@ my %WriteMakefileArgs = (
 
 
 my %FallbackPrereqs = (
-  "Carp::Always" => 0,
   "HTTP::Request::Common" => 0,
   "Plack::Builder" => 0,
   "Plack::Middleware" => 0,
